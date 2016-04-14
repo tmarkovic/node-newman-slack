@@ -1,0 +1,23 @@
+{
+  "name": "node-newman-slack",
+  "version": "1.0.0",
+  "description": "Runs a newman/postman collection and posts results to slack",
+  "main": "notifyslack.js",
+  "dependencies": {
+    "node-slack-upload": "^1.1.0",
+    "newman": "^2.0.7",
+    "slack-node": "^0.2.0",
+    "unirest": "^0.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "newman",
+    "postman",
+    "slack"
+  ],
+  "author": "Theo Markovic",
+  "license": "ISC"
+}
